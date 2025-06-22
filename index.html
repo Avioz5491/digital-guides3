@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מדריכים דיגיטליים - תזונה, השקעות ודרופ שיפינג</title>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Assistant', sans-serif;
+      background-color: #f7fafc;
+      color: #333;
+      direction: rtl;
+    }
+    header {
+      background: linear-gradient(90deg, #00c9ff, #92fe9d);
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00a3cc;
+      font-weight: bold;
+    }
+    .about {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .about h2 {
+      color: #00a3cc;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 2rem;
+    }
+    .about p {
+      padding: 20px;
+      font-size: 1.1rem;
+      color: #444;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      color: #00a3cc;
+      font-size: 1.5rem;
+    }
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .qr {
+      width: 120px;
+      height: 120px;
+      margin: 10px auto;
+      background: url('https://api.qrserver.com/v1/create-qr-code/?data=https://bit.ly/demo-bit-link&size=120x120') no-repeat center/cover;
+    }
+    .buy-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f57c00;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .buy-btn:hover {
+      background-color: #ef6c00;
+    }
+    footer {
+      text-align: center;
+      margin: 50px 0 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    המדריכים שישנו לך את החיים
+  </header>
+  <nav>
+    <a href="home.html">בית</a>
+    <a href="odot.html">אודות</a>
+    <a href="contact.html">צור קשר</a>
+  </nav>
+
+  <div class="about" id="about">
+  <h2>מי אני?</h2>
+  <p>
+    נעים מאוד! אני אביעוז, יזם צעיר שבחר לצאת למסע אישי וכלכלי – בלי מסגרות, בלי פשרות, ועם הרבה נחישות וסקרנות. במשך שנים הרגשתי אבוד: לא ידעתי מאיפה להתחיל, איך מתקדמים בחיים, ואיך הופכים רעיונות למציאות. כל מה שידעתי זה שאני רוצה יותר – יותר חופש, יותר שליטה, יותר משמעות. התחברתי לעולם הדיגיטלי מתוך תקווה למצוא דרך אחרת, וגיליתי עולם שלם של הזדמנויות: השקעות חכמות, תזונה נכונה, הכנסה באינטרנט, דרופשיפינג, ושיווק עצמי. במקום רק לצרוך תוכן – החלטתי להתחיל ליצור. את כל מה שלמדתי, חוויתי, נפלתי והצלחתי – תרגמתי למדריכים פשוטים, ממוקדים, ומלאים בכלים אמיתיים. המטרה שלי? לתת גם לך את ההתחלה שהייתי כל כך צריך בעצמי. זה לא קל, אבל זה שווה כל רגע. ואם הגעת לפה – כבר עשית את הצעד הראשון שלך. 💪
+  </p>
+</div>
+
+  <div class="container">
+    <div class="card">
+      <h2>מדריך לתזונה פשוטה ובריאה</h2>
+      <p>תפריט שבועי, טיפים, רשימת קניות וכלים לאורח חיים בריא באמת.</p>
+      <div class="qr"></div>
+      <a href="https://bit.ly/demo-bit-link" class="buy-btn" target="_blank">לתשלום ב־BIT</a>
+    </div>
+
+    <div class="card">
+      <h2>איך להשקיע נכון - מדריך למתחילים</h2>
+      <p>כל מה שצריך לדעת כדי להתחיל להשקיע בקלות – גם בלי ידע מוקדם.</p>
+      <div class="qr"></div>
+      <a href="https://bit.ly/demo-bit-link" class="buy-btn" target="_blank">לתשלום ב־BIT</a>
+    </div>
+
+    <div class="card">
+      <h2>המדריך לדרופ שיפינג ומכירה אונליין</h2>
+      <p>צעדים פשוטים למכירה ב־eBay, Amazon ו-Etsy – בלי מלאי, בלי סיכון.</p>
+      <div class="qr"></div>
+      <a href="https://bit.ly/demo-bit-link" class="buy-btn" target="_blank">לתשלום ב־BIT</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 כל הזכויות שמורות. האתר נבנה באהבה ❤️
+  </footer>
+</body>
+</html>
